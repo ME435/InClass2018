@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+
+    <string name="fixesLabel">Number of fixes:</string>
+</resources>
