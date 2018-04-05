@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/x_label"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X:"
+        />
+    <TextView
+        android:id="@+id/gps_x_textview"
+        android:textSize="30sp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignBaseline="@id/x_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---"
+        android:layout_toRightOf="@id/x_label"/>
+
+    <TextView
+        android:id="@+id/y_label"
+        android:layout_below="@id/x_label"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y:"
+        />
+    <TextView
+        android:id="@+id/gps_y_textview"
+        android:textSize="30sp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignBaseline="@id/y_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---"
+        android:layout_toRightOf="@id/y_label"/>
+
+    <TextView
+        android:id="@+id/heading_label"
+        android:textSize="30sp"
+        android:layout_below="@id/y_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heading:"
+        />
+    <TextView
+        android:id="@+id/gps_heading_textview"
+        android:textSize="30sp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignBaseline="@id/heading_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---"
+        android:layout_toRightOf="@id/heading_label"/>
+
+
+    <TextView
+        android:id="@+id/gps_counter_textview"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="0"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/heading_label">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Set Origin"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Set X Axis"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</RelativeLayout>
