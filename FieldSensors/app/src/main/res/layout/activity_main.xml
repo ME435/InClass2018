@@ -10,97 +10,106 @@
 
     <TextView
         android:id="@+id/x_label"
-        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="X:"
+        android:textSize="30sp"
         />
+
     <TextView
         android:id="@+id/gps_x_textview"
-        android:textSize="30sp"
-        android:layout_marginLeft="15dp"
-        android:layout_alignBaseline="@id/x_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/x_label"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/x_label"
         android:text="---"
-        android:layout_toRightOf="@id/x_label"/>
+        android:textSize="30sp"/>
 
     <TextView
         android:id="@+id/y_label"
-        android:layout_below="@id/x_label"
-        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/x_label"
         android:text="Y:"
+        android:textSize="30sp"
         />
+
     <TextView
         android:id="@+id/gps_y_textview"
-        android:textSize="30sp"
-        android:layout_marginLeft="15dp"
-        android:layout_alignBaseline="@id/y_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/y_label"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/y_label"
         android:text="---"
-        android:layout_toRightOf="@id/y_label"/>
+        android:textSize="30sp"/>
 
     <TextView
         android:id="@+id/heading_label"
-        android:textSize="30sp"
-        android:layout_below="@id/y_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/y_label"
         android:text="Heading:"
+        android:textSize="30sp"
         />
+
     <TextView
         android:id="@+id/gps_heading_textview"
-        android:textSize="30sp"
-        android:layout_marginLeft="15dp"
-        android:layout_alignBaseline="@id/heading_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/heading_label"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/heading_label"
         android:text="---"
-        android:layout_toRightOf="@id/heading_label"/>
+        android:textSize="30sp"/>
 
 
     <TextView
         android:id="@+id/gps_counter_textview"
-        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:text="0"
+        android:textSize="30sp"
         />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/heading_label"
         android:layout_marginTop="25dp"
-        android:orientation="horizontal"
-        android:layout_below="@id/heading_label">
+        android:orientation="horizontal">
+
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1" />
-        <Button
-            android:layout_width="0dp"
-            android:layout_weight="3"
-            android:layout_height="wrap_content"
-            android:text="Set Origin"
-            />
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"/>
 
         <Button
             android:layout_width="0dp"
-            android:layout_weight="3"
             android:layout_height="wrap_content"
-            android:text="Set X Axis"/>
+            android:layout_weight="3"
+            android:text="Set Origin"
+            android:onClick="handleSetOrigin"
+            />
+
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Set X Axis"
+            android:onClick="handleSetXAxis"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
     </LinearLayout>
 
 </RelativeLayout>
