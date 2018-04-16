@@ -9,9 +9,19 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/gps_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Field GPS"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
         android:id="@+id/x_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/gps_label"
         android:text="X:"
         android:textSize="30sp"
         />
@@ -74,7 +84,19 @@
         android:textSize="30sp"
         />
 
+
+    <TextView
+        android:id="@+id/gps_accuracy_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/gps_counter_textview"
+        android:text="---"
+        android:textSize="30sp"
+        />
+
     <LinearLayout
+        android:id="@+id/gps_buttons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/heading_label"
@@ -110,6 +132,65 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/field_orientation_sensor_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gps_buttons"
+        android:text="Field Orientation"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        />
+
+
+    <TextView
+        android:id="@+id/sensor_heading_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/field_orientation_sensor_label"
+        android:text="Heading:"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/sensor_heading_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/sensor_heading_label"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/sensor_heading_label"
+        android:text="---"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sensor_heading_label"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Set Heading to 0"
+            android:onClick="handleSetHeadingTo0"
+            />
+
+
+        <ToggleButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textOn="Set to GPS Heading"
+            android:textOff="Don't set to GPS Heading"
+            android:onClick="handleToggle"/>
+
     </LinearLayout>
 
 </RelativeLayout>
