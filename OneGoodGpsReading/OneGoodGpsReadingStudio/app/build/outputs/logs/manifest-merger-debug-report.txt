@@ -1,0 +1,120 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/113d66251998e54ee8f2d3494261a520/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/b360f342031b8fb962576a2dc64617c2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/74f99853f7429ccec50264e4e73428f6/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/eadb963a55c37b1fbfc60752bbfa375b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/5da73a6d579bb7cf1523d6e108a54ce5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/e86e8a2a2f8c39060afdc4f4a0efce49/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/f43a3416b6767b664da8a59059f845c9/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/164a1af04846dceeeeb8a59ad15a543d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/604fee3f2e2707f63e05a886451d6b22/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:5:5-44
+INJECTED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:5:5-44
+INJECTED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/113d66251998e54ee8f2d3494261a520/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/113d66251998e54ee8f2d3494261a520/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/b360f342031b8fb962576a2dc64617c2/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/b360f342031b8fb962576a2dc64617c2/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/74f99853f7429ccec50264e4e73428f6/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/74f99853f7429ccec50264e4e73428f6/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/eadb963a55c37b1fbfc60752bbfa375b/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/eadb963a55c37b1fbfc60752bbfa375b/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/5da73a6d579bb7cf1523d6e108a54ce5/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/5da73a6d579bb7cf1523d6e108a54ce5/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/e86e8a2a2f8c39060afdc4f4a0efce49/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/e86e8a2a2f8c39060afdc4f4a0efce49/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/f43a3416b6767b664da8a59059f845c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/f43a3416b6767b664da8a59059f845c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/164a1af04846dceeeeb8a59ad15a543d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/164a1af04846dceeeeb8a59ad15a543d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/604fee3f2e2707f63e05a886451d6b22/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/604fee3f2e2707f63e05a886451d6b22/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:5:5-44
+INJECTED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:5:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/113d66251998e54ee8f2d3494261a520/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml
+		ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:5:5-44
+		INJECTED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:5:15-41
+		INJECTED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:7:5-20:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/113d66251998e54ee8f2d3494261a520/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/113d66251998e54ee8f2d3494261a520/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/b360f342031b8fb962576a2dc64617c2/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/b360f342031b8fb962576a2dc64617c2/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/74f99853f7429ccec50264e4e73428f6/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/74f99853f7429ccec50264e4e73428f6/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/eadb963a55c37b1fbfc60752bbfa375b/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/eadb963a55c37b1fbfc60752bbfa375b/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/5da73a6d579bb7cf1523d6e108a54ce5/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/5da73a6d579bb7cf1523d6e108a54ce5/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/e86e8a2a2f8c39060afdc4f4a0efce49/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/e86e8a2a2f8c39060afdc4f4a0efce49/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/f43a3416b6767b664da8a59059f845c9/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/f43a3416b6767b664da8a59059f845c9/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/164a1af04846dceeeeb8a59ad15a543d/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/164a1af04846dceeeeb8a59ad15a543d/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/604fee3f2e2707f63e05a886451d6b22/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/604fee3f2e2707f63e05a886451d6b22/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:11:9-40
+activity#edu.rosehulman.onegoodgpsreading.OneGoodGpsReadingActivity
+ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:12:9-19:20
+	android:label
+		ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:13:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/fisherds/Documents/Rose/ME435/github/InClass2018/OneGoodGpsReading/OneGoodGpsReadingStudio/app/src/main/AndroidManifest.xml:17:27-74
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/113d66251998e54ee8f2d3494261a520/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/b360f342031b8fb962576a2dc64617c2/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/b360f342031b8fb962576a2dc64617c2/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/74f99853f7429ccec50264e4e73428f6/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/74f99853f7429ccec50264e4e73428f6/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/eadb963a55c37b1fbfc60752bbfa375b/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/eadb963a55c37b1fbfc60752bbfa375b/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/5da73a6d579bb7cf1523d6e108a54ce5/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/5da73a6d579bb7cf1523d6e108a54ce5/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/e86e8a2a2f8c39060afdc4f4a0efce49/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/e86e8a2a2f8c39060afdc4f4a0efce49/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/f43a3416b6767b664da8a59059f845c9/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/f43a3416b6767b664da8a59059f845c9/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/164a1af04846dceeeeb8a59ad15a543d/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/164a1af04846dceeeeb8a59ad15a543d/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/604fee3f2e2707f63e05a886451d6b22/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/604fee3f2e2707f63e05a886451d6b22/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/113d66251998e54ee8f2d3494261a520/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/fisherds/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/113d66251998e54ee8f2d3494261a520/AndroidManifest.xml:26:9-47
